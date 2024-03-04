@@ -22,19 +22,19 @@ var questions = [
     {
         question: 'Which symbol is used for comments in JavaScript?',
         answers: [
-            { text: '//', correct: true },
             { text: '/* */', correct: false },
             { text: '#', correct: false },
+            { text: '//', correct: true },
             { text: '<!-- -->', correct: false }
         ]
     },
     {
         question: 'How do you declare a JavaScript variable?',
         answers: [
-            { text: 'var myVariable;', correct: true },
             { text: 'variable myVariable;', correct: false },
+            { text: 'var myVariable;', correct: true },
             { text: 'v myVariable;', correct: false },
-            { text: 'None of the above', correct: false },
+            { text: 'None of the above', correct: false }
         ]
     },
     {
@@ -49,26 +49,26 @@ var questions = [
     {
         question: 'How can you convert a string to an integer in JavaScript?',
         answers: [
-        { text: 'parseInt()', correct: true },
         { text: 'toInt()', correct: false },
         { text: 'Number()', correct: false },
-        { text: 'AsInt()', correct: false }
+        { text: 'AsInt()', correct: false },
+        { text: 'parseInt()', correct: true }
     ]
     },
     {
         question: 'Which of the following is a way to create an object in JavaScript?',
         answers: [
-        { text: 'var obj = {};', correct: true },
         { text: 'var obj = new Obj();', correct: false },
         { text: 'var obj = new OBJECT();', correct: false },
+        { text: 'var obj = {};', correct: true },
         { text: 'var obj = Object();', correct: false }
     ]
     },
     {
         question: 'How do you add an element at the beginning of an array in JavaScript?',
         answers: [
-        { text: 'arr.unshift(element);', correct: true },
         { text: 'arr.push(element);', correct: false },
+        { text: 'arr.unshift(element);', correct: true },
         { text: 'arr.addFirst(element);', correct: false },
         { text: 'arr[0] = element;', correct: false }
     ]
